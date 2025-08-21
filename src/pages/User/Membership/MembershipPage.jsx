@@ -5,7 +5,7 @@ import { UserService } from "../../../services/UserService";
 import { jwtDecode } from "jwt-decode";
 import { toast, ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import "./MembershipPage.css";
+import "./MemberShipPage.css";
 
 // Helper: safely decode user from token in sessionStorage
 function getDecodedUser() {
