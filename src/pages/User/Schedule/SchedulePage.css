@@ -1,0 +1,162 @@
+.schedule-bg {
+  min-height: 98vh;
+  width: 100vw;
+  background: #fff;
+  color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+}
+
+.schedule-root {
+  width: 100%;
+  max-width: 950px;
+  margin: 34px auto;
+  border-radius: 20px;
+  background: #fff;
+  box-shadow: 0 2px 12px #0002;
+  display: flex;
+  flex-wrap: wrap;
+  min-height: 490px;
+  align-items: stretch;
+  border: 1.5px solid #ddd;
+}
+
+.schedule-leftpanel {
+  min-width: 230px;
+  max-width: 300px;
+  background: #fff;
+  padding: 35px 24px 22px 24px;
+  border-radius: 20px 0 0 20px;
+  border-right: 1.5px solid #0001;
+  display: flex;
+  flex-direction: column;
+  gap: 19px;
+}
+
+.schedule-calendar {
+  text-align: center;
+  font-weight: 700;
+  color: #000;
+  font-size: 18px;
+  margin-bottom: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.schedule-goalbtn {
+  width: 100%;
+  font-weight: 700;
+  font-size: 17px;
+  margin-bottom: 9px;
+  background: #fff;
+  color: #000;
+  border: 1.5px solid #000;
+  border-radius: 8px;
+  padding: 10px 0;
+  box-shadow: none;
+  cursor: pointer;
+  transition: all .12s;
+  text-align: left;
+  display: flex;
+  align-items: center;
+}
+.schedule-goalbtn .schedule-goalicon {
+  margin-bottom: 2px;
+  margin-right: 9px;
+}
+
+.schedule-goalbtn.selected {
+  background: #000;
+  color: #fff;
+  border: 1.5px solid #000;
+}
+
+.schedule-goallabel {
+  font-size: 19px;
+  display: flex;
+  align-items: center;
+}
+
+.schedule-tablepanel {
+  flex: 1;
+  min-width: 270px;
+  border-radius: 0 20px 20px 0;
+  padding: 38px 38px;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.schedule-tabletitle {
+  font-weight: 800;
+  color: #000;
+  font-size: 21px;
+  letter-spacing: 0.8px;
+  margin-bottom: 10px;
+}
+
+.schedule-subtext {
+  margin: 0 0 13px 0;
+  color: #333;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.schedule-table {
+  width: 100%;
+  border-collapse: collapse;
+  border-radius: 14px;
+  background: #fff;
+  border: 1.5px solid #000;
+  color: #000;
+  overflow: hidden;
+  font-size: 16px;
+}
+
+.schedule-table thead tr {
+  background: #fff;
+  border-bottom: 2.5px solid #000;
+}
+.schedule-table th {
+  width: 110px;
+  color: #000;
+  font-weight: 600;
+  padding: 7px;
+  font-size: 1em;
+  background: #fff;
+}
+
+.schedule-table tbody tr {
+  text-align: center;
+  transition: background 0.08s;
+  border-bottom: 1px solid #eee;
+}
+.schedule-table tbody tr:hover {
+  background: #f7f7f7;
+}
+.schedule-tbl-day {
+  font-weight: 700;
+  color: #000;
+  padding: 7px;
+}
+.schedule-tbl-workout {
+  color: #222;
+  padding: 7px;
+}
+
+
+.schedule-instructions {
+  margin: 18px 0 0 0;
+  background: #e3ffe5;
+  border-left: 5px solid #00c853;
+  color: #165834;
+  padding: 10px 20px;
+  border-radius: 12px;
+  font-size: 16px;
+  font-weight: 500;
+  box-shadow: 0 2px 8px #00e6761a;
+}

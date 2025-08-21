@@ -1,0 +1,102 @@
+.user-homepage-root {
+  background: #fff;
+  min-height: 100vh;
+}
+
+.user-navbar {
+  background: #fff;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1.5px solid #0001;
+}
+
+.brand {
+  color: #000;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.user-img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 2px solid #000;
+}
+
+.user-name {
+  color: #000;
+  font-weight: 500;
+}
+
+.content-container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 10px;
+}
+
+.welcome-heading {
+  text-align: center;
+  color: #000;
+}
+
+.username {
+  color: #fff;
+  background: #000;
+  padding: 2px 10px;
+  border-radius: 4px;
+}
+
+.choose-text {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #333;
+}
+
+.card-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.home-card-link {
+  text-decoration: none;
+}
+
+.home-card {
+  background: #fff;
+  border: 1.5px solid #000;
+  border-radius: 16px;
+  padding: 22px 25px;
+  min-width: 170px;
+  min-height: 110px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0 2px 8px #0002;
+  transition: transform .12s;
+}
+
+.home-card:hover {
+  transform: scale(1.045);
+}
+
+.card-title {
+  color: #000;
+  margin-top: 8px;
+  font-weight: 700;
+}
+
+.card-desc {
+  color: #222;
+  font-size: 13px;
+  margin-top: 3px;
+}

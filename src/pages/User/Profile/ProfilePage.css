@@ -1,0 +1,208 @@
+.profilepage-bg {
+  background: #ffffff; /* white page background */
+  min-height: 100vh;
+  padding: 40px 0;
+}
+
+.profilepage-root {
+  display: flex;
+  max-width: 700px;
+  margin: 0 auto;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 16px rgba(0,0,0,0.10);
+  overflow: hidden;
+  border: 1.5px solid #111;
+}
+
+.profile-avatar-panel {
+  flex: 1 1 180px;
+  padding: 36px 18px 36px 24px;
+  text-align: center;
+  background: #f9f9f9;
+  border-right: 1.5px solid #222;
+  min-width: 165px;
+  color: #111;
+  position: relative;
+}
+
+.profile-avatar {
+  position: relative;
+  margin-bottom: 10px;
+  /* for upload button positioning */
+}
+
+.profile-avatar img {
+  width: 92px;
+  height: 92px;
+  border-radius: 50%;
+  margin-bottom: 15px;
+  background: #efefef;
+  border: 2.5px solid #111;
+  object-fit: cover;
+}
+
+/* Upload button styling (appears over image when editing) */
+.profile-avatar-upload-btn {
+  position: absolute;
+  left: 55%;
+  bottom: 23px;
+  background: #fff;
+  border: 1.5px solid #111;
+  padding: 7px 8px 6px 7px;
+  border-radius: 50%;
+  box-shadow: 0 0 7px #e6eaf1;
+  cursor: pointer;
+  font-size: 1.13rem;
+  color: #111;
+  z-index: 3;
+  transition: background 0.17s, color 0.17s, border-color 0.16s;
+}
+.profile-avatar-upload-btn:hover {
+  background: #292929;
+  color: #fff;
+  border-color: #111;
+}
+
+.profile-avatar-upload-action {
+  display: block;
+  margin: 7px auto 0 auto;
+  background: #357fea;
+  color: #fff;
+  border-radius: 5px;
+  padding: 2px 17px;
+  border: none;
+  font-size: 0.95rem;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background .19s;
+}
+.profile-avatar-upload-action:disabled {
+  background: #acc4e6;
+}
+
+.profile-avatar-delete-btn {
+  display: inline-block;
+  margin-left: 10px;
+  margin-top: 8px;
+  background: #e53d3d;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 2px 15px;
+  font-size: 0.97rem;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background .13s;
+}
+.profile-avatar-delete-btn:hover {
+  background: #ba1717;
+}
+
+.profile-mainname {
+  font-size: 1.25rem;
+  margin-bottom: 10px;
+  font-weight: 700;
+  color: #111;
+}
+
+.profile-info-line {
+  color: #000;
+  margin-bottom: 6px;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.profile-info-line svg {
+  color: #111;
+  margin-right: 7px;
+}
+
+.profile-form-panel {
+  flex: 2 1 340px;
+  padding: 42px 32px 40px 32px;
+  color: #111;
+}
+
+.profile-form-heading {
+  font-size: 1.1rem;
+  margin-bottom: 22px;
+  font-weight: 700;
+  color: #000;
+}
+
+.profile-form-group {
+  margin-bottom: 16px;
+}
+
+.profile-label-icon {
+  margin-right: 6px;
+  color: #111;
+}
+
+.profile-input {
+  padding: 7px 11px;
+  width: 98%;
+  font-size: 1em;
+  border-radius: 7px;
+  border: 1.3px solid #111;
+  outline: none;
+  margin-top: 4px;
+  background: #fff;
+  color: #000;
+  font-family: inherit;
+  transition: border-color 0.2s;
+}
+.profile-input:focus {
+  border-color: #111;
+}
+
+.readonly {
+  background: #f3f3f3;
+  border: 1.3px solid #aaa;
+  color: #333;
+}
+
+.profile-save-btn,
+.profile-edit-btn {
+  padding: 7px 20px;
+  border: none;
+  border-radius: 6px;
+  font-size: 1em;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  font-weight: 600;
+  transition: background 0.22s, color 0.22s;
+}
+.profile-save-btn {
+  background: #111;
+  color: #fff;
+}
+.profile-edit-btn {
+  background: #fff;
+  color: #111;
+  border: 1.5px solid #111;
+}
+.profile-edit-btn:hover,
+.profile-save-btn:hover {
+  background: #222;
+  color: #fff;
+}
+
+.profile-btn-icon {
+  margin-right: 7px;
+  font-size: 1.09em;
+}
+
+/* Responsive styles */
+@media (max-width: 780px) {
+  .profilepage-root { flex-direction: column; max-width: 99vw; }
+  .profile-avatar-panel { border-right: none; border-bottom: 1.5px solid #111; padding: 27px 10px 15px 10px; }
+  .profile-form-panel { padding: 28px 7vw 28px 7vw; }
+}
+@media (max-width: 500px) {
+  .profile-form-panel, .profile-avatar-panel { padding: 14px 4vw; }
+  .profilepage-root { min-width: 0; }
+}

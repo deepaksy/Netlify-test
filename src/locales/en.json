@@ -1,0 +1,47 @@
+{
+  "app": {
+    "brand": "GymMate",
+    "fitness": "Fitness"
+  },
+  "hero": {
+    "title": "<accent>{{brand}}</accent> {{fitness}}",
+    "subtitle": "Build strength, confidence, and community. Your fitness, your journey.",
+    "cta": "Get Started"
+  },
+  "plans": {
+    "title": "Membership Plans",
+    "mostPopular": "Most Popular",
+    "choosePlan": "Choose Plan",
+    "features": {
+      "access": "Access",
+      "trainer": "Trainer",
+      "diet": "Diet",
+      "sauna": "Sauna",
+      "classes": "Classes",
+      "duration": "Duration"
+    },
+    "yes": "Yes",
+    "no": "No",
+    "mo": "mo"
+  },
+  "trainers": {
+    "title": "Meet Our Trainers",
+    "expertise": "Expertise",
+    "certifications": "Certifications"
+  },
+  "about": {
+    "title": "About Us",
+    "content": "<b>{{brand}} {{fitness}}</b> is Pune’s community for transformation—bringing science, passion, and energy together. From elite trainers to modern equipment and friendly vibes, we help you achieve lasting results and real joy in fitness. All are welcome—become your strongest self, with us!"
+  },
+  "contact": {
+    "title": "Contact Us",
+    "phone": "Phone",
+    "email": "Email",
+    "address": "Address"
+  },
+  "footer": {
+    "location": "Pune, Maharashtra",
+    "address": "404 Blue Avenue, Koregaon Park, Pune 411001, Maharashtra, India",
+    "copyright": "© {{year}} {{brand}}. All rights reserved."
+  }
+}
